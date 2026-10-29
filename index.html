@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paloma, maquilladora profesional en Nueva York</title>
+  <meta name="description" content="Paloma, maquilladora chilena en Nueva York. Novias, maquillaje social, alisados y clases de automaquillaje a domicilio.">
+  <meta property="og:title" content="Paloma, maquilladora en Nueva York">
+  <meta property="og:description" content="Novias, maquillaje social, alisados y clases de automaquillaje.">
+  <meta property="og:image" content="img/video-2021-07.jpg">
+  <meta name="theme-color" content="#0c0b0c">
+  <link rel="icon" href="img/perfil.jpg">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+
+<header class="bar">
+  <a class="bar__mark" href="#inicio">Paloma</a>
+  <nav class="bar__nav" aria-label="Principal">
+    <a href="#trabajos">Trabajos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#clases">Clases</a>
+    <a href="#preguntas">Preguntas</a>
+  </nav>
+  <a class="btn btn--small" href="#reservar">Reservar</a>
+</header>
+
+<main>
+  <section class="hero" id="inicio" data-shade="lila" aria-labelledby="titulo">
+    <div class="hero__copy">
+      <h1 id="titulo" data-reveal>Paloma, maquilladora en Nueva York</h1>
+      <p class="hero__lead" data-reveal>Chilena, especialista en novias y maquillaje social. También hago alisados y enseño automaquillaje, a domicilio en Manhattan, Brooklyn y Queens.</p>
+      <div class="hero__actions" data-reveal>
+        <a class="btn" href="#reservar">Reservar una hora</a>
+        <a class="link" href="#trabajos">Ver trabajos</a>
+      </div>
+      <ul class="hero__services" data-reveal aria-label="Servicios">
+        <li>Novias</li><li>Maquillaje social</li><li>Alisados</li><li>Clases</li>
+      </ul>
+    </div>
+
+    <div class="stage" data-case-color="#121012" data-rim-color="#c9a2e0" aria-label="Labial en 3D">
+      <img class="stage__fallback" src="img/video-2021-07.jpg" width="360" height="640" alt="Maquillaje lila de Paloma: sombra lila y labios lila">
+      <canvas class="stage__canvas" aria-hidden="true"></canvas>
+      <div class="stage__ui">
+        <p class="stage__shade" aria-live="polite"><span id="shade-name">Lila Paloma</span></p>
+        <div class="swatches" role="group" aria-label="Tono del labial">
+          <button class="swatch" data-shade-pick="lila" aria-pressed="true" style="--c:#b993d6"><span>Lila Paloma</span></button>
+          <button class="swatch" data-shade-pick="rosa" aria-pressed="false" style="--c:#d98c98"><span>Rosa té</span></button>
+          <button class="swatch" data-shade-pick="nude" aria-pressed="false" style="--c:#c48f77"><span>Nude novia</span></button>
+          <button class="swatch" data-shade-pick="rojo" aria-pressed="false" style="--c:#a3243b"><span>Rojo Santiago</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="trabajos" aria-labelledby="trabajos-titulo">
+    <div class="work__head">
+      <h2 id="trabajos-titulo" data-reveal>Trabajos recientes</h2>
+      <p data-reveal>Maquillaje y cabello, de un delineado lila a un alisado espejo. Todas las fotos son de su Instagram.</p>
+    </div>
+    <ul class="index" data-reveal>
+      <li><a href="#antes-despues" data-cover="img/video-2021-07.jpg"><img src="img/video-2021-07.jpg" alt="" width="360" height="640" loading="lazy"><span class="index__title">Lila gráfico</span><span class="index__tag">Maquillaje creativo</span><span class="index__year">2021</span></a></li>
+      <li><a href="#antes-despues" data-cover="img/video-2021-06a.jpg" data-compare="0"><img src="img/video-2021-06a.jpg" alt="" width="360" height="640" loading="lazy"><span class="index__title">Automaquillaje natural</span><span class="index__tag">Clase, antes y después</span><span class="index__year">2021</span></a></li>
+      <li><a href="#servicios" data-cover="img/foto-2020-01a.jpg"><img src="img/foto-2020-01a.jpg" alt="" width="640" height="640" loading="lazy"><span class="index__title">Piel luminosa</span><span class="index__tag">Maquillaje social</span><span class="index__year">2020</span></a></li>
+      <li><a href="#servicios" data-cover="img/foto-2020-01b.jpg"><img src="img/foto-2020-01b.jpg" alt="" width="512" height="640" loading="lazy"><span class="index__title">Maquillaje de día</span><span class="index__tag">Maquillaje social</span><span class="index__year">2020</span></a></li>
+      <li><a href="#antes-despues" data-cover="img/foto-2020-08c-despues.jpg" data-compare="1"><img src="img/foto-2020-08c-despues.jpg" alt="" width="320" height="640" loading="lazy"><span class="index__title">Liso espejo</span><span class="index__tag">Alisado, antes y después</span><span class="index__year">2020</span></a></li>
+      <li><a href="#antes-despues" data-cover="img/foto-2020-08b-despues.jpg" data-compare="2"><img src="img/foto-2020-08b-despues.jpg" alt="" width="320" height="588" loading="lazy"><span class="index__title">De ondas a liso</span><span class="index__tag">Alisado, antes y después</span><span class="index__year">2020</span></a></li>
+      <li><a href="#servicios" data-cover="img/foto-2020-08a.jpg"><img src="img/foto-2020-08a.jpg" alt="" width="640" height="640" loading="lazy"><span class="index__title">Cobre suave</span><span class="index__tag">Alisado</span><span class="index__year">2020</span></a></li>
+      <li><a href="#servicios" data-cover="img/foto-2020-02a-recorte.jpg"><img src="img/foto-2020-02a-recorte.jpg" alt="" width="481" height="640" loading="lazy"><span class="index__title">Brillo castaño</span><span class="index__tag">Alisado</span><span class="index__year">2020</span></a></li>
+    </ul>
+    <div class="cover" aria-hidden="true"><img alt="" width="360" height="450"></div>
+  </section>
+
+  <section class="compare" id="antes-despues" aria-labelledby="compare-titulo">
+    <div class="compare__text">
+      <h2 id="compare-titulo" data-reveal>Antes y después</h2>
+      <p data-reveal>El mismo rostro y el mismo cabello, antes de empezar y al terminar. Elige un trabajo y mueve la línea.</p>
+      <div class="chooser" role="group" aria-label="Elegir trabajo" data-reveal>
+        <button aria-pressed="true" data-pair="0">Automaquillaje</button>
+        <button aria-pressed="false" data-pair="1">Liso espejo</button>
+        <button aria-pressed="false" data-pair="2">De ondas a liso</button>
+      </div>
+      <p class="compare__caption" aria-live="polite" data-reveal>Clase de automaquillaje: cejas, piel pareja y labios nude.</p>
+    </div>
+    <figure class="ba" style="--pos:50%" data-reveal>
+      <img class="ba__after" src="img/video-2021-06a.jpg" width="360" height="640" alt="Después: cejas definidas, piel pareja y labios nude" loading="lazy">
+      <img class="ba__before" src="img/video-2021-06b.jpg" width="360" height="640" alt="Antes: rostro sin maquillaje" loading="lazy">
+      <span class="ba__tag ba__tag--before" aria-hidden="true">Antes</span>
+      <span class="ba__tag ba__tag--after" aria-hidden="true">Después</span>
+      <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Comparar antes y después">
+    </figure>
+  </section>
+
+  <section class="novias" aria-labelledby="novias-titulo">
+    <figure class="novias__photo" data-reveal>
+      <img src="img/foto-2020-01b.jpg" width="512" height="640" alt="Clienta con maquillaje social de día, piel natural y labios rosados" loading="lazy">
+    </figure>
+    <div class="novias__text">
+      <h2 id="novias-titulo" data-reveal>Novias</h2>
+      <p class="novias__lead" data-reveal>Tu piel, pero en su mejor día. Un maquillaje que se ve natural en persona, impecable en las fotos y que dura hasta el último baile.</p>
+      <div class="tabs" role="tablist" aria-label="Servicio de novias" data-reveal>
+        <button role="tab" id="tab-prueba" aria-selected="true" aria-controls="panel-prueba">La prueba</button>
+        <button role="tab" id="tab-dia" aria-selected="false" aria-controls="panel-dia" tabindex="-1">El día</button>
+        <button role="tab" id="tab-retoque" aria-selected="false" aria-controls="panel-retoque" tabindex="-1">El retoque</button>
+      </div>
+      <div class="tabs__panels" data-reveal>
+        <p role="tabpanel" id="panel-prueba" aria-labelledby="tab-prueba">Nos juntamos cuatro a seis semanas antes. Probamos dos looks, los fotografiamos con luz de día y ajustamos hasta que te encante.</p>
+        <p role="tabpanel" id="panel-dia" aria-labelledby="tab-dia" hidden>Llego a donde te estés preparando con todo: limpieza, preparación de piel, maquillaje, pestañas y fijación de larga duración.</p>
+        <p role="tabpanel" id="panel-retoque" aria-labelledby="tab-retoque" hidden>Me quedo hasta después de la ceremonia para retocarte antes de las fotos, y te dejo tu labial para la fiesta.</p>
+      </div>
+      <a class="btn btn--dark" data-reveal href="mailto:paloma.makeupprofessional@gmail.com?subject=Prueba%20de%20novia&body=Hola%20Paloma%2C%20me%20caso%20el%20...%20y%20quiero%20agendar%20mi%20prueba.">Agendar mi prueba</a>
+    </div>
+  </section>
+
+  <section class="services" id="servicios" aria-labelledby="servicios-titulo">
+    <div class="services__head">
+      <h2 id="servicios-titulo" data-reveal>Servicios y tarifas</h2>
+      <p data-reveal>Precios en dólares, a domicilio en Manhattan, Brooklyn y Queens. Lunes a sábado con hora; los domingos son solo para novias.</p>
+    </div>
+    <div class="services__groups">
+      <div class="group" data-reveal>
+        <h3>Maquillaje</h3>
+        <ul class="menu">
+          <li><span>Maquillaje social<small>Matrimonios, graduaciones y cenas</small></span><b>US$ 120</b></li>
+          <li><span>Maquillaje de día<small>Natural, para fotos o reuniones</small></span><b>US$ 90</b></li>
+          <li><span>Maquillaje creativo<small>Color y delineado gráfico</small></span><b>US$ 150</b></li>
+          <li><span>Pestañas postizas<small>Tira completa, aplicada</small></span><b>US$ 20</b></li>
+        </ul>
+      </div>
+      <div class="group" data-reveal>
+        <h3>Novias</h3>
+        <ul class="menu">
+          <li><span>Prueba de novia<small>Dos looks, 90 minutos</small></span><b>US$ 150</b></li>
+          <li><span>Novia, el día<small>Piel, maquillaje, pestañas y fijación</small></span><b>US$ 380</b></li>
+          <li><span>Retoque en la ceremonia<small>Hasta dos horas en el lugar</small></span><b>US$ 120</b></li>
+          <li><span>Mamá o madrina<small>Por persona, el mismo día</small></span><b>US$ 110</b></li>
+        </ul>
+      </div>
+      <div class="group" data-reveal>
+        <h3>Cabello</h3>
+        <ul class="menu">
+          <li><span>Alisado, largo medio<small>Hasta los hombros</small></span><b>US$ 220</b></li>
+          <li><span>Alisado, largo extra<small>Bajo los omóplatos</small></span><b>US$ 280</b></li>
+          <li><span>Brushing u ondas<small>Para eventos</small></span><b>US$ 70</b></li>
+        </ul>
+      </div>
+      <div class="group" data-reveal>
+        <h3>Clases</h3>
+        <ul class="menu">
+          <li><span>Automaquillaje individual<small>Dos horas, con tus productos</small></span><b>US$ 160</b></li>
+          <li><span>Automaquillaje para dos<small>Dos horas y media</small></span><b>US$ 260</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="clase" id="clases" aria-labelledby="clases-titulo">
+    <figure class="half" data-reveal>
+      <img class="half__mine" src="img/video-2021-06a.jpg" width="360" height="640" alt="La mitad maquillada: cejas definidas y piel pareja" loading="lazy">
+      <img class="half__yours" src="img/video-2021-06b.jpg" width="360" height="640" alt="La mitad sin maquillar" loading="lazy">
+      <figcaption><span>Tu mitad</span><span>Mi mitad</span></figcaption>
+    </figure>
+    <div class="clase__text">
+      <h2 id="clases-titulo" data-reveal>Aprende a maquillarte</h2>
+      <p class="clase__lead" data-reveal>Yo maquillo la mitad de tu cara y tú haces la otra conmigo al lado. En dos horas te vas sabiendo hacerlo sola, con tus propios productos.</p>
+      <dl class="steps" data-reveal>
+        <div><dt>Revisamos tu neceser y elegimos el look</dt><dd>15 min</dd></div>
+        <div><dt>Preparación de piel y base</dt><dd>30 min</dd></div>
+        <div><dt>Cejas y ojos, mitad y mitad</dt><dd>45 min</dd></div>
+        <div><dt>Labios, fijación y ficha con tus pasos</dt><dd>30 min</dd></div>
+      </dl>
+      <a class="btn" data-reveal href="mailto:paloma.makeupprofessional@gmail.com?subject=Clase%20de%20automaquillaje&body=Hola%20Paloma%2C%20quiero%20una%20clase%20de%20automaquillaje.%20Me%20acomoda%20el%20d%C3%ADa%3A%20">Reservar mi clase</a>
+    </div>
+  </section>
+
+  <section class="faq" id="preguntas" aria-labelledby="preguntas-titulo">
+    <h2 id="preguntas-titulo" data-reveal>Preguntas frecuentes</h2>
+    <div class="qa" data-reveal>
+      <details>
+        <summary>¿Vas a domicilio?</summary>
+        <p>Sí. Llevo todo lo necesario, incluida una luz para trabajar. Solo necesito una silla y una mesa cerca de una ventana.</p>
+      </details>
+      <details>
+        <summary>¿Con cuánta anticipación reservo?</summary>
+        <p>Para novias, entre tres y seis meses. Para maquillaje social, una o dos semanas suelen bastar.</p>
+      </details>
+      <details>
+        <summary>¿Cuánto dura el maquillaje?</summary>
+        <p>Con buena preparación de piel y fijación, entre diez y doce horas. En novias me quedo para el retoque si lo reservas.</p>
+      </details>
+      <details>
+        <summary>¿Qué pasa si tengo piel sensible?</summary>
+        <p>Cuéntamelo al reservar. Te pregunto por alergias y adapto los productos; si quieres, lo probamos antes.</p>
+      </details>
+      <details>
+        <summary>¿Hablas inglés?</summary>
+        <p>Sí, atiendo en español y en inglés.</p>
+      </details>
+      <details>
+        <summary>¿Cómo reservo?</summary>
+        <p>Escríbeme por correo o Instagram con el servicio, la fecha, la hora y el lugar. Te confirmo disponibilidad el mismo día.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="book" id="reservar" aria-labelledby="reservar-titulo">
+    <img class="book__photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/BLOCK_OF_BROWNSTONE_RESIDENCES_IN_PARK_SLOPE_OF_BROOKLYN_NEW_YORK_CITY._BROOKLYN_REMAINS_ONE_OF_AMERICA%27S_BEST..._-_NARA_-_555920.jpg/1920px-BLOCK_OF_BROWNSTONE_RESIDENCES_IN_PARK_SLOPE_OF_BROOKLYN_NEW_YORK_CITY._BROOKLYN_REMAINS_ONE_OF_AMERICA%27S_BEST..._-_NARA_-_555920.jpg" width="1920" height="1299" alt="Casas de piedra rojiza en Park Slope, Brooklyn, en 1974">
+    <div class="book__panel">
+      <h2 id="reservar-titulo" data-reveal>Reserva tu hora</h2>
+      <p data-reveal>Cuéntame el servicio, la fecha, la hora y el lugar. Te respondo el mismo día.</p>
+      <a class="btn" data-reveal href="mailto:paloma.makeupprofessional@gmail.com?subject=Quiero%20reservar%20una%20hora&body=Hola%20Paloma%2C%20me%20gustar%C3%ADa%20reservar%3A%0A%0AServicio%3A%20%0AFecha%3A%20%0AHora%3A%20%0ALugar%3A%20">Escribir para reservar</a>
+      <dl class="hours" data-reveal>
+        <div><dt>Lunes a viernes</dt><dd>9:00 a 19:00</dd></div>
+        <div><dt>Sábado</dt><dd>8:00 a 18:00</dd></div>
+        <div><dt>Domingo</dt><dd>Solo novias</dd></div>
+      </dl>
+      <p class="book__contact" data-reveal><a href="mailto:paloma.makeupprofessional@gmail.com">paloma.makeupprofessional@gmail.com</a><br><a href="https://www.instagram.com/paloma.makeupprofesional/" target="_blank" rel="noopener">@paloma.makeupprofesional</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot__name" aria-hidden="true">Paloma</p>
+  <div class="foot__line">
+    <p>Maquilladora profesional, Nueva York</p>
+    <nav aria-label="Pie de página">
+      <a href="https://www.instagram.com/paloma.makeupprofesional/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:paloma.makeupprofessional@gmail.com">Correo</a>
+      <a href="#inicio">Inicio</a>
+    </nav>
+    <p>© 2026 · Foto de Brooklyn: Danny Lyon, 1974, dominio público, vía <a href="https://commons.wikimedia.org/wiki/File:BLOCK_OF_BROWNSTONE_RESIDENCES_IN_PARK_SLOPE_OF_BROOKLYN_NEW_YORK_CITY._BROOKLYN_REMAINS_ONE_OF_AMERICA%27S_BEST..._-_NARA_-_555920.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></p>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+<script type="module" src="lipstick.js"></script>
+</body>
+</html>
