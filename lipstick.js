@@ -101,7 +101,9 @@ if (renderer) {
   layout();
 
   // Shade changes ease toward the new colour
-  const target = new THREE.Color(SHADE_HEX.lila);
+  // Start from whatever shade was picked while three.js was still loading
+  const picked = document.querySelector('[data-shade-pick][aria-pressed="true"]')?.dataset.shadePick;
+  const target = new THREE.Color(SHADE_HEX[picked] || SHADE_HEX.lila);
   document.addEventListener('shade', (e) => { if (SHADE_HEX[e.detail]) target.set(SHADE_HEX[e.detail]); });
 
   // Drag to turn, with inertia; the pointer also tilts the whole rig

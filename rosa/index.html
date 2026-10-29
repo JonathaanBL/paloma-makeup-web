@@ -7,13 +7,14 @@
   <meta name="description" content="Paloma, maquilladora profesional chilena en Nueva York. Novias, maquillaje social, alisados y clases de automaquillaje.">
   <meta property="og:title" content="Paloma, maquillaje profesional">
   <meta property="og:description" content="Maquilladora chilena en Nueva York: novias, maquillaje social, alisados y clases de automaquillaje.">
-  <meta property="og:image" content="../img/video-2021-07.jpg">
+  <meta property="og:image" content="https://jonathaanbl.github.io/paloma-makeup-web/img/video-2021-07.jpg">
   <link rel="icon" href="../img/perfil.jpg">
   <link rel="preconnect" href="https://api.fontshare.com">
   <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
   <link href="https://api.fontshare.com/v2/css?f[]=erode@400,401,500,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script>document.documentElement.classList.add('js')</script>
+  <!-- Hide for the entrance animation; show everything if main.js has not taken over in 3 s -->
+  <script>document.documentElement.classList.add('js'); setTimeout(() => window.revealReady || document.documentElement.classList.remove('js'), 3000)</script>
   <script type="importmap">
     { "imports": {
       "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",

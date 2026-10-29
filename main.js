@@ -13,6 +13,7 @@ document.querySelectorAll('section').forEach((sec) => {
   sec.querySelectorAll('[data-reveal]').forEach((el, i) => el.style.setProperty('--d', `${Math.min(i, 5) * 80}ms`));
 });
 document.querySelectorAll('[data-reveal]').forEach((el) => io.observe(el));
+window.revealReady = true;
 
 /* Lipstick shades */
 const SHADES = { lila: 'Lila Paloma', rosa: 'Rosa té', nude: 'Nude novia', rojo: 'Rojo Santiago' };
