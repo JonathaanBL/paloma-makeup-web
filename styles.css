@@ -293,6 +293,19 @@ button { font: inherit; color: inherit; }
 .hours div { display: flex; justify-content: space-between; gap: 16px; }
 .hours dt { color: var(--muted); }
 .book__contact a:hover { color: var(--accent); }
+.book__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; }
+
+/* WhatsApp: always one tap away */
+.wa {
+  position: fixed; z-index: 30;
+  right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom));
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px;
+  background: var(--accent); color: var(--accent-ink);
+  font-weight: 700; text-decoration: none;
+  transition: background-color .25s ease, transform .45s var(--ease-out);
+}
+.wa:hover { background: var(--ink); transform: translateY(-2px); }
+.wa:active { transform: scale(.97); }
 
 /* ---------- Footer: the name returns at full width ---------- */
 .foot { padding: var(--gap) var(--edge) 28px; overflow: hidden; }
