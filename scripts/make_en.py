@@ -111,6 +111,11 @@ R = [
  ('Brushing u ondas<small>Para eventos</small>', 'Blowout or waves<small>For events</small>'),
  ('Automaquillaje individual<small>Dos horas, con tus productos</small>', 'Private self-makeup class<small>Two hours, with your own products</small>'),
  ('Automaquillaje para dos<small>Dos horas y media</small>', 'Self-makeup class for two<small>Two and a half hours</small>'),
+ ('<h3>Paquetes</h3>', '<h3>Packages</h3>'),
+ ('Novia y mamá<small>Las dos el mismo día, con prueba de novia</small>', 'Bride and mother<small>Both on the same day, with bridal trial</small>'),
+ ('Novia y cortejo<small>Novia más tres personas, el mismo día</small>', 'Bride and party<small>Bride plus three people, same day</small>'),
+ ('Maquillaje y peinado<small>Maquillaje social con brushing u ondas</small>', 'Makeup and hair<small>Event makeup with a blowout or waves</small>'),
+ (f'{B}img/og-es.jpg', f'{B}img/og-en.jpg'),
  # class
  ('alt="La mitad maquillada: cejas definidas y piel pareja"', 'alt="The made-up half: defined brows and even skin"'),
  ('alt="La mitad sin maquillar"', 'alt="The bare half"'),
