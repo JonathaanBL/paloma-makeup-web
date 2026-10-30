@@ -6,6 +6,9 @@
   <title>Paloma, maquilladora profesional en Nueva York</title>
   <meta name="description" content="Paloma, maquilladora latina en Nueva York. Maquillaje de novias, social y de noche, alisados y clases de automaquillaje a domicilio en Manhattan, Brooklyn y Queens.">
   <link rel="canonical" href="https://jonathaanbl.github.io/paloma-makeup-web/">
+  <link rel="alternate" hreflang="es" href="https://jonathaanbl.github.io/paloma-makeup-web/">
+  <link rel="alternate" hreflang="en" href="https://jonathaanbl.github.io/paloma-makeup-web/en/">
+  <link rel="alternate" hreflang="x-default" href="https://jonathaanbl.github.io/paloma-makeup-web/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://jonathaanbl.github.io/paloma-makeup-web/">
   <meta property="og:locale" content="es_US">
@@ -15,7 +18,6 @@
   <meta property="og:image" content="https://jonathaanbl.github.io/paloma-makeup-web/img/trabajo-rojo-clasico.jpg">
   <meta name="theme-color" content="#0c0b0c">
   <link rel="icon" href="img/perfil.jpg">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -56,7 +58,10 @@
     <a href="#clases">Clases</a>
     <a href="#preguntas">Preguntas</a>
   </nav>
-  <a class="btn btn--small" href="#reservar">Reservar</a>
+  <div class="bar__end">
+    <a class="lang" href="en/" hreflang="en" lang="en" aria-label="English version">EN</a>
+    <a class="btn btn--small" href="#reservar">Reservar</a>
+  </div>
 </header>
 
 <main>
@@ -88,24 +93,61 @@
     </div>
   </section>
 
-  <section class="work" id="trabajos" aria-labelledby="trabajos-titulo">
-    <div class="work__head">
-      <h2 id="trabajos-titulo" data-reveal>Trabajos recientes</h2>
-      <p data-reveal>Maquillaje social, de noche, editorial y caracterización, además de alisados. Fotos de su trabajo entre 2019 y 2021.</p>
+  <section class="reel" id="trabajos" aria-labelledby="trabajos-titulo">
+    <div class="reel__head">
+      <h2 id="trabajos-titulo" data-reveal>Portafolio</h2>
+      <p data-reveal>Maquillaje social, de noche, editorial y caracterización, además de alisados. Trabajos de 2019 a 2021.</p>
+      <div class="filters" role="group" aria-label="Filtrar portafolio" data-reveal>
+        <button aria-pressed="true" data-filter="todo">Todo</button>
+        <button aria-pressed="false" data-filter="maquillaje">Maquillaje</button>
+        <button aria-pressed="false" data-filter="editorial">Editorial</button>
+        <button aria-pressed="false" data-filter="cabello">Cabello</button>
+      </div>
     </div>
-    <ul class="index" data-reveal>
-      <li><a href="#servicios" data-cover="img/trabajo-rojo-clasico.webp"><img src="img/trabajo-rojo-clasico.webp" alt="" width="1200" height="1600" loading="lazy"><span class="index__title">Rojo clásico</span><span class="index__tag">Maquillaje social</span><span class="index__year">2019</span></a></li>
-      <li><a href="#antes-despues" data-cover="img/natural-despues.webp" data-compare="0"><img src="img/natural-despues.webp" alt="" width="800" height="1600" loading="lazy"><span class="index__title">Natural</span><span class="index__tag">Maquillaje de día, antes y después</span><span class="index__year">2019</span></a></li>
-      <li><a href="#servicios" data-cover="img/trabajo-corona-flores.webp"><img src="img/trabajo-corona-flores.webp" alt="" width="1200" height="1600" loading="lazy"><span class="index__title">Corona de flores</span><span class="index__tag">Maquillaje para evento</span><span class="index__year">2019</span></a></li>
-      <li><a href="#servicios" data-cover="img/trabajo-smokey-lila.webp"><img src="img/trabajo-smokey-lila.webp" alt="" width="1600" height="805" loading="lazy"><span class="index__title">Smokey lila</span><span class="index__tag">Maquillaje de noche</span><span class="index__year">2019</span></a></li>
-      <li><a href="#servicios" data-cover="img/trabajo-glitter-dorado.webp"><img src="img/trabajo-glitter-dorado.webp" alt="" width="1119" height="1600" loading="lazy"><span class="index__title">Glitter dorado</span><span class="index__tag">Editorial</span><span class="index__year">2019</span></a></li>
-      <li><a href="#servicios" data-cover="img/trabajo-bronce.webp"><img src="img/trabajo-bronce.webp" alt="" width="960" height="1280" loading="lazy"><span class="index__title">Bronce cálido</span><span class="index__tag">Maquillaje de noche</span><span class="index__year">2019</span></a></li>
-      <li><a href="#servicios" data-cover="img/trabajo-carnaval.webp"><img src="img/trabajo-carnaval.webp" alt="" width="1200" height="1600" loading="lazy"><span class="index__title">Carnaval</span><span class="index__tag">Caracterización</span><span class="index__year">2020</span></a></li>
-      <li><a href="#servicios" data-cover="img/video-2021-07.webp"><img src="img/video-2021-07.webp" alt="" width="360" height="640" loading="lazy"><span class="index__title">Lila gráfico</span><span class="index__tag">Maquillaje creativo</span><span class="index__year">2021</span></a></li>
-      <li><a href="#antes-despues" data-cover="img/foto-2020-08c-despues.webp" data-compare="2"><img src="img/foto-2020-08c-despues.webp" alt="" width="320" height="640" loading="lazy"><span class="index__title">Liso espejo</span><span class="index__tag">Alisado, antes y después</span><span class="index__year">2020</span></a></li>
-      <li><a href="#antes-despues" data-cover="img/foto-2020-08b-despues.webp" data-compare="3"><img src="img/foto-2020-08b-despues.webp" alt="" width="320" height="588" loading="lazy"><span class="index__title">De ondas a liso</span><span class="index__tag">Alisado, antes y después</span><span class="index__year">2020</span></a></li>
-    </ul>
-    <div class="cover" aria-hidden="true"><img alt="" width="360" height="450"></div>
+    <div class="reel__stage">
+      <div class="reel__track">
+        <figure class="card" data-cat="maquillaje">
+          <img src="img/trabajo-rojo-clasico-800.webp" srcset="img/trabajo-rojo-clasico-800.webp 600w, img/trabajo-rojo-clasico.webp 1200w" sizes="(max-width: 900px) 78vw, 34vw" width="1200" height="1600" alt="Maquillaje de noche con ojos ahumados y labios rojos" loading="lazy">
+          <figcaption><span class="card__title">Rojo clásico</span><span class="card__tag">Maquillaje social, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="editorial">
+          <img src="img/trabajo-glitter-dorado-800.webp" srcset="img/trabajo-glitter-dorado-800.webp 559w, img/trabajo-glitter-dorado.webp 1119w" sizes="(max-width: 900px) 78vw, 32vw" width="1119" height="1600" alt="Perfil con delineado de glitter dorado, iluminador y coleta con brillos" loading="lazy">
+          <figcaption><span class="card__title">Glitter dorado</span><span class="card__tag">Editorial, 2019</span></figcaption>
+        </figure>
+        <figure class="card card--wide" data-cat="maquillaje">
+          <img src="img/trabajo-smokey-lila-800.webp" srcset="img/trabajo-smokey-lila-800.webp 800w, img/trabajo-smokey-lila.webp 1600w" sizes="(max-width: 900px) 90vw, 60vw" width="1600" height="805" alt="Primer plano de un ojo con sombra lila y morada difuminada" loading="lazy">
+          <figcaption><span class="card__title">Smokey lila</span><span class="card__tag">Maquillaje de noche, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="maquillaje">
+          <img src="img/trabajo-corona-flores-800.webp" srcset="img/trabajo-corona-flores-800.webp 600w, img/trabajo-corona-flores.webp 1200w" sizes="(max-width: 900px) 78vw, 34vw" width="1200" height="1600" alt="Maquillaje suave con corona de flores blancas y vestido rosado" loading="lazy">
+          <figcaption><span class="card__title">Corona de flores</span><span class="card__tag">Maquillaje para evento, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="maquillaje">
+          <img src="img/natural-despues-800.webp" srcset="img/natural-despues-800.webp 400w, img/natural-despues.webp 800w" sizes="(max-width: 900px) 60vw, 24vw" width="800" height="1600" alt="Maquillaje de día con ojos delineados y labios nude" loading="lazy">
+          <figcaption><span class="card__title">Natural</span><a class="card__link" href="#antes-despues" data-compare="0">Ver antes y después</a></figcaption>
+        </figure>
+        <figure class="card" data-cat="maquillaje">
+          <img src="img/trabajo-bronce-800.webp" srcset="img/trabajo-bronce-800.webp 600w, img/trabajo-bronce.webp 960w" sizes="(max-width: 900px) 78vw, 34vw" width="960" height="1280" alt="Ojos cerrados con sombra bronce cálida" loading="lazy">
+          <figcaption><span class="card__title">Bronce cálido</span><span class="card__tag">Maquillaje de noche, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="editorial">
+          <img src="img/trabajo-carnaval-800.webp" srcset="img/trabajo-carnaval-800.webp 600w, img/trabajo-carnaval.webp 1200w" sizes="(max-width: 900px) 78vw, 34vw" width="1200" height="1600" alt="Caracterización de carnaval con barba negra, pestañas largas y labios fucsia" loading="lazy">
+          <figcaption><span class="card__title">Carnaval</span><span class="card__tag">Caracterización, 2020</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="editorial">
+          <img src="img/video-2021-07.webp" width="360" height="640" alt="Sombra lila difuminada y labios lila con brillo" loading="lazy">
+          <figcaption><span class="card__title">Lila gráfico</span><span class="card__tag">Maquillaje creativo, 2021</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="cabello">
+          <img src="img/foto-2020-08c-despues.webp" width="320" height="640" alt="Cabello negro largo, liso y brillante" loading="lazy">
+          <figcaption><span class="card__title">Liso espejo</span><a class="card__link" href="#antes-despues" data-compare="2">Ver antes y después</a></figcaption>
+        </figure>
+        <figure class="card" data-cat="cabello">
+          <img src="img/foto-2020-08b-despues.webp" width="320" height="588" alt="Cabello castaño oscuro liso hasta media espalda" loading="lazy">
+          <figcaption><span class="card__title">De ondas a liso</span><a class="card__link" href="#antes-despues" data-compare="3">Ver antes y después</a></figcaption>
+        </figure>
+      </div>
+    </div>
   </section>
 
   <section class="compare" id="antes-despues" aria-labelledby="compare-titulo">
@@ -121,8 +163,8 @@
       <p class="compare__caption" aria-live="polite" data-reveal>Maquillaje de día: piel pareja, ojos delineados y labios nude.</p>
     </div>
     <figure class="ba" style="--pos:50%" data-reveal>
-      <img class="ba__after" src="img/natural-despues.webp" width="800" height="1600" alt="Después: piel pareja, ojos delineados y labios nude" loading="lazy">
-      <img class="ba__before" src="img/natural-antes.webp" width="800" height="1600" alt="Antes: rostro sin maquillaje" loading="lazy">
+      <img class="ba__after" src="img/natural-despues-800.webp" width="400" height="800" alt="Después: piel pareja, ojos delineados y labios nude" loading="lazy">
+      <img class="ba__before" src="img/natural-antes-800.webp" width="400" height="800" alt="Antes: rostro sin maquillaje" loading="lazy">
       <span class="ba__tag ba__tag--before" aria-hidden="true">Antes</span>
       <span class="ba__tag ba__tag--after" aria-hidden="true">Después</span>
       <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Comparar antes y después">
@@ -131,7 +173,7 @@
 
   <section class="novias" aria-labelledby="novias-titulo">
     <figure class="novias__photo" data-reveal>
-      <img src="img/trabajo-corona-flores.webp" width="1200" height="1600" alt="Clienta con maquillaje suave, corona de flores blancas y vestido rosado" loading="lazy">
+      <img src="img/trabajo-corona-flores-800.webp" srcset="img/trabajo-corona-flores-800.webp 600w, img/trabajo-corona-flores.webp 1200w" sizes="(max-width: 900px) 92vw, 48vw" width="1200" height="1600" alt="Clienta con maquillaje suave, corona de flores blancas y vestido rosado" loading="lazy">
     </figure>
     <div class="novias__text">
       <h2 id="novias-titulo" data-reveal>Novias</h2>
@@ -159,7 +201,7 @@
         <p>Busco modelos para estrenar mi portafolio en Nueva York. Te maquillo sin costo y a cambio me dejas usar las fotos. Cupos limitados.</p>
         <a class="link" href="https://wa.me/15162425810?text=Hola%20Paloma%2C%20me%20gustar%C3%ADa%20ser%20modelo%20para%20tu%20portafolio.%0A%0AZona%3A%20%0ADisponibilidad%3A%20" target="_blank" rel="noopener">Quiero ser modelo</a>
       </div>
-      <img class="services__photo" data-reveal src="img/paloma-en-estudio.webp" width="957" height="1280" alt="Maquillando a una clienta en un estudio con espejos iluminados" loading="lazy">
+      <img class="services__photo" data-reveal src="img/paloma-en-estudio-800.webp" srcset="img/paloma-en-estudio-800.webp 598w, img/paloma-en-estudio.webp 957w" sizes="(max-width: 900px) 92vw, 30vw" width="957" height="1280" alt="Maquillando a una clienta en un estudio con espejos iluminados" loading="lazy">
     </div>
     <div class="services__groups">
       <div class="group" data-reveal>
@@ -242,13 +284,13 @@
       </details>
       <details>
         <summary>¿Cómo reservo?</summary>
-        <p>Escríbeme por correo o Instagram con el servicio, la fecha, la hora y el lugar. Te confirmo disponibilidad el mismo día.</p>
+        <p>Escríbeme por WhatsApp o Instagram con el servicio, la fecha, la hora y el lugar. Te confirmo disponibilidad el mismo día.</p>
       </details>
     </div>
   </section>
 
   <section class="book" id="reservar" aria-labelledby="reservar-titulo">
-    <img class="book__photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/BLOCK_OF_BROWNSTONE_RESIDENCES_IN_PARK_SLOPE_OF_BROOKLYN_NEW_YORK_CITY._BROOKLYN_REMAINS_ONE_OF_AMERICA%27S_BEST..._-_NARA_-_555920.jpg/1920px-BLOCK_OF_BROWNSTONE_RESIDENCES_IN_PARK_SLOPE_OF_BROOKLYN_NEW_YORK_CITY._BROOKLYN_REMAINS_ONE_OF_AMERICA%27S_BEST..._-_NARA_-_555920.jpg" width="1920" height="1299" alt="Casas de piedra rojiza en Park Slope, Brooklyn, en 1974">
+    <img class="book__photo" src="img/brooklyn-800.webp" srcset="img/brooklyn-800.webp 800w, img/brooklyn-1600.webp 1600w" sizes="100vw" width="1600" height="1083" loading="lazy" alt="Casas de piedra rojiza en Park Slope, Brooklyn, en 1974">
     <div class="book__panel">
       <h2 id="reservar-titulo" data-reveal>Reserva tu hora</h2>
       <p data-reveal>Cuéntame el servicio, la fecha, la hora y el lugar. Te respondo el mismo día.</p>
@@ -281,6 +323,5 @@
 <a class="wa" href="https://wa.me/15162425810?text=Hola%20Paloma%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20reservar." target="_blank" rel="noopener">WhatsApp</a>
 
 <script src="main.js" defer></script>
-<script type="module" src="lipstick.js"></script>
 </body>
 </html>

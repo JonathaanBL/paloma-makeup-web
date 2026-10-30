@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paloma, makeup artist in New York</title>
+  <meta name="description" content="Paloma, Latina makeup artist in New York. Bridal, event and evening makeup, hair straightening and self-makeup classes, on location in Manhattan, Brooklyn and Queens.">
+  <link rel="canonical" href="https://jonathaanbl.github.io/paloma-makeup-web/en/">
+  <link rel="alternate" hreflang="es" href="https://jonathaanbl.github.io/paloma-makeup-web/">
+  <link rel="alternate" hreflang="en" href="https://jonathaanbl.github.io/paloma-makeup-web/en/">
+  <link rel="alternate" hreflang="x-default" href="https://jonathaanbl.github.io/paloma-makeup-web/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jonathaanbl.github.io/paloma-makeup-web/en/">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="Paloma, makeup artist in New York">
+  <meta property="og:description" content="Bridal, event makeup, hair straightening and self-makeup classes.">
+  <meta property="og:image" content="https://jonathaanbl.github.io/paloma-makeup-web/img/trabajo-rojo-clasico.jpg">
+  <meta name="theme-color" content="#0c0b0c">
+  <link rel="icon" href="../img/perfil.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Paloma Makeup",
+    "description": "Chilean makeup artist in New York: bridal, event makeup, hair straightening and self-makeup classes on location.",
+    "url": "https://jonathaanbl.github.io/paloma-makeup-web/en/",
+    "image": "https://jonathaanbl.github.io/paloma-makeup-web/img/trabajo-rojo-clasico.jpg",
+    "telephone": "+1-516-242-5810",
+    "priceRange": "$",
+    "areaServed": ["Manhattan", "Brooklyn", "Queens"],
+    "address": { "@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US" },
+    "availableLanguage": ["es", "en"],
+    "sameAs": ["https://www.instagram.com/paloma.makeupprofesional/"]
+  }
+  </script>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <!-- Hide for the entrance animation; show everything if main.js has not taken over in 3 s -->
+  <script>document.documentElement.classList.add('js'); setTimeout(() => window.revealReady || document.documentElement.classList.remove('js'), 3000)</script>
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+
+<header class="bar">
+  <a class="bar__mark" href="#inicio">Paloma</a>
+  <nav class="bar__nav" aria-label="Main">
+    <a href="#trabajos">Work</a>
+    <a href="#servicios">Services</a>
+    <a href="#clases">Classes</a>
+    <a href="#preguntas">FAQ</a>
+  </nav>
+  <div class="bar__end">
+    <a class="lang" href="../" hreflang="es" lang="es" aria-label="Versión en español">ES</a>
+    <a class="btn btn--small" href="#reservar">Book</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio" data-shade="lila" aria-labelledby="titulo">
+    <div class="hero__copy">
+      <h1 id="titulo" data-reveal>Paloma, makeup artist in New York</h1>
+      <p class="hero__lead" data-reveal>Chilean, specializing in bridal and event makeup. I also do hair straightening and teach self-makeup, on location in Manhattan, Brooklyn and Queens.</p>
+      <div class="hero__actions" data-reveal>
+        <a class="btn" href="#reservar">Book an appointment</a>
+        <a class="link" href="#trabajos">See my work</a>
+      </div>
+      <ul class="hero__services" data-reveal aria-label="Services">
+        <li>Bridal</li><li>Event makeup</li><li>Hair straightening</li><li>Classes</li>
+      </ul>
+    </div>
+
+    <div class="stage" data-case-color="#121012" data-rim-color="#c9a2e0" aria-label="3D lipstick">
+      <img class="stage__fallback" src="../img/video-2021-07.webp" width="360" height="640" alt="Paloma's lilac look: lilac eyeshadow and lilac lips">
+      <canvas class="stage__canvas" aria-hidden="true"></canvas>
+      <div class="stage__ui">
+        <p class="stage__shade" aria-live="polite"><span id="shade-name">Paloma Lilac</span></p>
+        <div class="swatches" role="group" aria-label="Lipstick shade">
+          <button class="swatch" data-shade-pick="lila" aria-pressed="true" style="--c:#b993d6"><span>Paloma Lilac</span></button>
+          <button class="swatch" data-shade-pick="rosa" aria-pressed="false" style="--c:#d98c98"><span>Tea Rose</span></button>
+          <button class="swatch" data-shade-pick="nude" aria-pressed="false" style="--c:#c48f77"><span>Bridal Nude</span></button>
+          <button class="swatch" data-shade-pick="rojo" aria-pressed="false" style="--c:#a3243b"><span>Santiago Red</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reel" id="trabajos" aria-labelledby="trabajos-titulo">
+    <div class="reel__head">
+      <h2 id="trabajos-titulo" data-reveal>Portfolio</h2>
+      <p data-reveal>Event, evening, editorial and character makeup, plus hair straightening. Work from 2019 to 2021.</p>
+      <div class="filters" role="group" aria-label="Filter portfolio" data-reveal>
+        <button aria-pressed="true" data-filter="todo">All</button>
+        <button aria-pressed="false" data-filter="maquillaje">Makeup</button>
+        <button aria-pressed="false" data-filter="editorial">Editorial</button>
+        <button aria-pressed="false" data-filter="cabello">Hair</button>
+      </div>
+    </div>
+    <div class="reel__stage">
+      <div class="reel__track">
+        <figure class="card" data-cat="maquillaje">
+          <img src="../img/trabajo-rojo-clasico-800.webp" srcset="../img/trabajo-rojo-clasico-800.webp 600w, ../img/trabajo-rojo-clasico.webp 1200w" sizes="(max-width: 900px) 78vw, 34vw" width="1200" height="1600" alt="Evening makeup with smoky eyes and red lips" loading="lazy">
+          <figcaption><span class="card__title">Classic Red</span><span class="card__tag">Event makeup, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="editorial">
+          <img src="../img/trabajo-glitter-dorado-800.webp" srcset="../img/trabajo-glitter-dorado-800.webp 559w, ../img/trabajo-glitter-dorado.webp 1119w" sizes="(max-width: 900px) 78vw, 32vw" width="1119" height="1600" alt="Profile with gold glitter liner, highlighter and a jewelled ponytail" loading="lazy">
+          <figcaption><span class="card__title">Gold Glitter</span><span class="card__tag">Editorial, 2019</span></figcaption>
+        </figure>
+        <figure class="card card--wide" data-cat="maquillaje">
+          <img src="../img/trabajo-smokey-lila-800.webp" srcset="../img/trabajo-smokey-lila-800.webp 800w, ../img/trabajo-smokey-lila.webp 1600w" sizes="(max-width: 900px) 90vw, 60vw" width="1600" height="805" alt="Close-up of an eye with blended lilac and purple shadow" loading="lazy">
+          <figcaption><span class="card__title">Lilac Smokey</span><span class="card__tag">Evening makeup, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="maquillaje">
+          <img src="../img/trabajo-corona-flores-800.webp" srcset="../img/trabajo-corona-flores-800.webp 600w, ../img/trabajo-corona-flores.webp 1200w" sizes="(max-width: 900px) 78vw, 34vw" width="1200" height="1600" alt="Soft makeup with a white flower crown and a pink dress" loading="lazy">
+          <figcaption><span class="card__title">Flower Crown</span><span class="card__tag">Special event makeup, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="maquillaje">
+          <img src="../img/natural-despues-800.webp" srcset="../img/natural-despues-800.webp 400w, ../img/natural-despues.webp 800w" sizes="(max-width: 900px) 60vw, 24vw" width="800" height="1600" alt="Day makeup with lined eyes and nude lips" loading="lazy">
+          <figcaption><span class="card__title">Natural</span><a class="card__link" href="#antes-despues" data-compare="0">See before and after</a></figcaption>
+        </figure>
+        <figure class="card" data-cat="maquillaje">
+          <img src="../img/trabajo-bronce-800.webp" srcset="../img/trabajo-bronce-800.webp 600w, ../img/trabajo-bronce.webp 960w" sizes="(max-width: 900px) 78vw, 34vw" width="960" height="1280" alt="Closed eyes with warm bronze shadow" loading="lazy">
+          <figcaption><span class="card__title">Warm Bronze</span><span class="card__tag">Evening makeup, 2019</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="editorial">
+          <img src="../img/trabajo-carnaval-800.webp" srcset="../img/trabajo-carnaval-800.webp 600w, ../img/trabajo-carnaval.webp 1200w" sizes="(max-width: 900px) 78vw, 34vw" width="1200" height="1600" alt="Carnival character makeup with a black beard, long lashes and fuchsia lips" loading="lazy">
+          <figcaption><span class="card__title">Carnival</span><span class="card__tag">Character makeup, 2020</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="editorial">
+          <img src="../img/video-2021-07.webp" width="360" height="640" alt="Blended lilac shadow and glossy lilac lips" loading="lazy">
+          <figcaption><span class="card__title">Graphic Lilac</span><span class="card__tag">Creative makeup, 2021</span></figcaption>
+        </figure>
+        <figure class="card" data-cat="cabello">
+          <img src="../img/foto-2020-08c-despues.webp" width="320" height="640" alt="Long black hair, sleek and shiny" loading="lazy">
+          <figcaption><span class="card__title">Mirror Sleek</span><a class="card__link" href="#antes-despues" data-compare="2">See before and after</a></figcaption>
+        </figure>
+        <figure class="card" data-cat="cabello">
+          <img src="../img/foto-2020-08b-despues.webp" width="320" height="588" alt="Sleek dark brown hair to mid-back" loading="lazy">
+          <figcaption><span class="card__title">Waves to Sleek</span><a class="card__link" href="#antes-despues" data-compare="3">See before and after</a></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="compare" id="antes-despues" aria-labelledby="compare-titulo">
+    <div class="compare__text">
+      <h2 id="compare-titulo" data-reveal>Before and after</h2>
+      <p data-reveal>The same face and the same hair, before we start and when we finish. Pick a look and move the line.</p>
+      <div class="chooser" role="group" aria-label="Choose a look" data-reveal>
+        <button aria-pressed="true" data-pair="0">Natural</button>
+        <button aria-pressed="false" data-pair="1">Self-makeup</button>
+        <button aria-pressed="false" data-pair="2">Mirror Sleek</button>
+        <button aria-pressed="false" data-pair="3">Waves to Sleek</button>
+      </div>
+      <p class="compare__caption" aria-live="polite" data-reveal>Day makeup: even skin, lined eyes and nude lips.</p>
+    </div>
+    <figure class="ba" style="--pos:50%" data-reveal>
+      <img class="ba__after" src="../img/natural-despues-800.webp" width="400" height="800" alt="After: even skin, lined eyes and nude lips" loading="lazy">
+      <img class="ba__before" src="../img/natural-antes-800.webp" width="400" height="800" alt="Before: bare face" loading="lazy">
+      <span class="ba__tag ba__tag--before" aria-hidden="true">Before</span>
+      <span class="ba__tag ba__tag--after" aria-hidden="true">After</span>
+      <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Compare before and after">
+    </figure>
+  </section>
+
+  <section class="novias" aria-labelledby="novias-titulo">
+    <figure class="novias__photo" data-reveal>
+      <img src="../img/trabajo-corona-flores-800.webp" srcset="../img/trabajo-corona-flores-800.webp 600w, ../img/trabajo-corona-flores.webp 1200w" sizes="(max-width: 900px) 92vw, 48vw" width="1200" height="1600" alt="Client with soft makeup, a white flower crown and a pink dress" loading="lazy">
+    </figure>
+    <div class="novias__text">
+      <h2 id="novias-titulo" data-reveal>Bridal</h2>
+      <p class="novias__lead" data-reveal>Your skin, on its best day. Makeup that looks natural in person, flawless in photos and lasts until the last dance.</p>
+      <div class="tabs" role="tablist" aria-label="Bridal service" data-reveal>
+        <button role="tab" id="tab-prueba" aria-selected="true" aria-controls="panel-prueba">The trial</button>
+        <button role="tab" id="tab-dia" aria-selected="false" aria-controls="panel-dia" tabindex="-1">The day</button>
+        <button role="tab" id="tab-retoque" aria-selected="false" aria-controls="panel-retoque" tabindex="-1">The touch-up</button>
+      </div>
+      <div class="tabs__panels" data-reveal>
+        <p role="tabpanel" id="panel-prueba" aria-labelledby="tab-prueba">We meet four to six weeks before. We try two looks, photograph them in daylight and adjust until you love it.</p>
+        <p role="tabpanel" id="panel-dia" aria-labelledby="tab-dia" hidden>I come to wherever you are getting ready with everything: cleansing, skin prep, makeup, lashes and long-wear setting.</p>
+        <p role="tabpanel" id="panel-retoque" aria-labelledby="tab-retoque" hidden>I stay until after the ceremony to touch you up before the photos, and leave you your lipstick for the party.</p>
+      </div>
+      <a class="btn btn--dark" data-reveal href="https://wa.me/15162425810?text=Hi%20Paloma%2C%20I%27m%20getting%20married%20on%20...%20and%20would%20like%20to%20book%20my%20trial." target="_blank" rel="noopener">Book my trial</a>
+    </div>
+  </section>
+
+  <section class="services" id="servicios" aria-labelledby="servicios-titulo">
+    <div class="services__head">
+      <h2 id="servicios-titulo" data-reveal>Services and rates</h2>
+      <p data-reveal>Launch prices in US dollars to celebrate my arrival in New York. On location in Manhattan, Brooklyn and Queens.</p>
+      <div class="launch" data-reveal>
+        <h3>Free portfolio sessions</h3>
+        <p>I am looking for models to build my New York portfolio. I do your makeup for free, and you let me use the photos. Limited spots.</p>
+        <a class="link" href="https://wa.me/15162425810?text=Hi%20Paloma%2C%20I%27d%20love%20to%20model%20for%20your%20portfolio.%0A%0AArea%3A%20%0AAvailability%3A%20" target="_blank" rel="noopener">I want to model</a>
+      </div>
+      <img class="services__photo" data-reveal src="../img/paloma-en-estudio-800.webp" srcset="../img/paloma-en-estudio-800.webp 598w, ../img/paloma-en-estudio.webp 957w" sizes="(max-width: 900px) 92vw, 30vw" width="957" height="1280" alt="Doing a client's makeup in a studio with lit mirrors" loading="lazy">
+    </div>
+    <div class="services__groups">
+      <div class="group" data-reveal>
+        <h3>Makeup</h3>
+        <ul class="menu">
+          <li><span>Event makeup<small>Weddings, graduations and dinners</small></span><b>US$ 60</b></li>
+          <li><span>Day makeup<small>Natural, for photos or meetings</small></span><b>US$ 45</b></li>
+          <li><span>Creative makeup<small>Color and graphic liner</small></span><b>US$ 75</b></li>
+          <li><span>False lashes<small>Full strip, applied</small></span><b>US$ 10</b></li>
+        </ul>
+      </div>
+      <div class="group" data-reveal>
+        <h3>Bridal</h3>
+        <ul class="menu">
+          <li><span>Bridal trial<small>Two looks, 90 minutes</small></span><b>US$ 75</b></li>
+          <li><span>Bride, wedding day<small>Skin, makeup, lashes and setting</small></span><b>US$ 200</b></li>
+          <li><span>Ceremony touch-up<small>Up to two hours on site</small></span><b>US$ 60</b></li>
+          <li><span>Mother or bridesmaid<small>Per person, same day</small></span><b>US$ 55</b></li>
+        </ul>
+      </div>
+      <div class="group" data-reveal>
+        <h3>Hair</h3>
+        <ul class="menu">
+          <li><span>Straightening, medium length<small>Up to the shoulders</small></span><b>US$ 120</b></li>
+          <li><span>Straightening, extra long<small>Below the shoulder blades</small></span><b>US$ 150</b></li>
+          <li><span>Blowout or waves<small>For events</small></span><b>US$ 40</b></li>
+        </ul>
+      </div>
+      <div class="group" data-reveal>
+        <h3>Classes</h3>
+        <ul class="menu">
+          <li><span>Private self-makeup class<small>Two hours, with your own products</small></span><b>US$ 80</b></li>
+          <li><span>Self-makeup class for two<small>Two and a half hours</small></span><b>US$ 130</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="clase" id="clases" aria-labelledby="clases-titulo">
+    <figure class="half" data-reveal>
+      <img class="half__mine" src="../img/video-2021-06a.webp" width="360" height="640" alt="The made-up half: defined brows and even skin" loading="lazy">
+      <img class="half__yours" src="../img/video-2021-06b.webp" width="360" height="640" alt="The bare half" loading="lazy">
+      <figcaption><span>Your half</span><span>My half</span></figcaption>
+    </figure>
+    <div class="clase__text">
+      <h2 id="clases-titulo" data-reveal>Learn to do your makeup</h2>
+      <p class="clase__lead" data-reveal>I do one half of your face and you do the other with me beside you. In two hours you leave knowing how to do it yourself, with your own products.</p>
+      <dl class="steps" data-reveal>
+        <div><dt>We go through your makeup bag and pick the look</dt><dd>15 min</dd></div>
+        <div><dt>Skin prep and foundation</dt><dd>30 min</dd></div>
+        <div><dt>Brows and eyes, half and half</dt><dd>45 min</dd></div>
+        <div><dt>Lips, setting and a card with your steps</dt><dd>30 min</dd></div>
+      </dl>
+      <a class="btn" data-reveal href="https://wa.me/15162425810?text=Hi%20Paloma%2C%20I%27d%20like%20a%20self-makeup%20class.%20A%20good%20day%20for%20me%20is%3A%20" target="_blank" rel="noopener">Book my class</a>
+    </div>
+  </section>
+
+  <section class="faq" id="preguntas" aria-labelledby="preguntas-titulo">
+    <h2 id="preguntas-titulo" data-reveal>Questions</h2>
+    <div class="qa" data-reveal>
+      <details>
+        <summary>Do you come to me?</summary>
+        <p>Yes. I bring everything, including a work light. I only need a chair and a table near a window.</p>
+      </details>
+      <details>
+        <summary>How far ahead should I book?</summary>
+        <p>For brides, three to six months. For event makeup, one or two weeks is usually enough.</p>
+      </details>
+      <details>
+        <summary>How long does the makeup last?</summary>
+        <p>With good skin prep and setting, ten to twelve hours. For brides I stay for the touch-up if you book it.</p>
+      </details>
+      <details>
+        <summary>What if I have sensitive skin?</summary>
+        <p>Tell me when you book. I ask about allergies and adapt the products; if you like, we test first.</p>
+      </details>
+      <details>
+        <summary>Do you speak Spanish?</summary>
+        <p>Yes, I work in Spanish and English.</p>
+      </details>
+      <details>
+        <summary>How do I book?</summary>
+        <p>Message me on WhatsApp or Instagram with the service, date, time and place. I confirm availability the same day.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="book" id="reservar" aria-labelledby="reservar-titulo">
+    <img class="book__photo" src="../img/brooklyn-800.webp" srcset="../img/brooklyn-800.webp 800w, ../img/brooklyn-1600.webp 1600w" sizes="100vw" width="1600" height="1083" loading="lazy" alt="Brownstone houses in Park Slope, Brooklyn, in 1974">
+    <div class="book__panel">
+      <h2 id="reservar-titulo" data-reveal>Book your appointment</h2>
+      <p data-reveal>Tell me the service, date, time and place. I reply the same day.</p>
+      <div class="book__actions" data-reveal>
+        <a class="btn" href="https://wa.me/15162425810?text=Hi%20Paloma%2C%20I%27d%20like%20to%20book%3A%0AService%3A%20%0ADate%3A%20%0ATime%3A%20%0APlace%3A%20" target="_blank" rel="noopener">Book on WhatsApp</a>
+      </div>
+      <dl class="hours" data-reveal>
+        <div><dt>Monday to Friday</dt><dd>9 am to 7 pm</dd></div>
+        <div><dt>Saturday</dt><dd>8 am to 6 pm</dd></div>
+        <div><dt>Sunday</dt><dd>Brides only</dd></div>
+      </dl>
+      <p class="book__contact" data-reveal><a href="tel:+15162425810">+1 (516) 242-5810</a><br><a href="https://www.instagram.com/paloma.makeupprofesional/" target="_blank" rel="noopener">@paloma.makeupprofesional</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot__name" aria-hidden="true">Paloma</p>
+  <div class="foot__line">
+    <p>Professional makeup artist, New York</p>
+    <nav aria-label="Footer">
+      <a href="https://www.instagram.com/paloma.makeupprofesional/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/15162425810" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="#inicio">Top</a>
+    </nav>
+    <p>© 2026 · Brooklyn photo: Danny Lyon, 1974, public domain, via <a href="https://commons.wikimedia.org/wiki/File:BLOCK_OF_BROWNSTONE_RESIDENCES_IN_PARK_SLOPE_OF_BROOKLYN_NEW_YORK_CITY._BROOKLYN_REMAINS_ONE_OF_AMERICA%27S_BEST..._-_NARA_-_555920.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></p>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/15162425810?text=Hi%20Paloma%2C%20I%20saw%20your%20website%20and%20would%20like%20to%20book." target="_blank" rel="noopener">WhatsApp</a>
+
+<script src="../main.js" defer></script>
+</body>
+</html>
