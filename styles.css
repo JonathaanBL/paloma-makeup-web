@@ -229,6 +229,9 @@ button { font: inherit; color: inherit; }
 .services { padding: var(--gap) var(--edge); display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 24px; row-gap: 48px; align-items: start; }
 .services__head { grid-column: 1 / 5; position: sticky; top: calc(var(--bar) + 32px); display: grid; gap: 24px; }
 .services__head p { color: var(--muted); max-width: 32ch; }
+.launch { background: var(--surface); padding: 24px; display: grid; gap: 10px; justify-items: start; }
+.launch h3 { color: var(--accent); }
+.launch p { color: var(--ink); max-width: 36ch; }
 .services__photo { width: 100%; aspect-ratio: 4 / 5; max-height: 50svh; object-fit: cover; object-position: 30% 30%; }
 .services__groups { grid-column: 6 / 13; display: grid; grid-template-columns: 1fr 1fr; gap: 64px 48px; }
 .group h3 { margin-bottom: 24px; color: var(--accent); }

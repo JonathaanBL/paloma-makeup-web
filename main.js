@@ -57,10 +57,10 @@ rows.forEach((a) => {
 
 /* Before / after with a chooser */
 const PAIRS = [
-  { before: 'img/natural-antes.jpg', after: 'img/natural-despues.jpg', b: 'Antes: rostro sin maquillaje', a: 'Después: piel pareja, ojos delineados y labios nude', caption: 'Maquillaje de día: piel pareja, ojos delineados y labios nude.' },
-  { before: 'img/video-2021-06b.jpg', after: 'img/video-2021-06a.jpg', b: 'Antes: rostro sin maquillaje', a: 'Después: cejas definidas, piel pareja y labios nude', caption: 'Clase de automaquillaje: cejas, piel pareja y labios nude.' },
-  { before: 'img/foto-2020-08c-antes.jpg', after: 'img/foto-2020-08c-despues.jpg', b: 'Antes: cabello negro largo con frizz', a: 'Después: cabello negro largo, liso y brillante', caption: 'Alisado en cabello negro largo: sin frizz y con brillo.' },
-  { before: 'img/foto-2020-08b-antes.jpg', after: 'img/foto-2020-08b-despues.jpg', b: 'Antes: cabello castaño ondulado y esponjoso', a: 'Después: cabello castaño oscuro liso hasta media espalda', caption: 'De ondas esponjosas a liso, en cabello castaño.' },
+  { before: 'img/natural-antes.webp', after: 'img/natural-despues.webp', b: 'Antes: rostro sin maquillaje', a: 'Después: piel pareja, ojos delineados y labios nude', caption: 'Maquillaje de día: piel pareja, ojos delineados y labios nude.' },
+  { before: 'img/video-2021-06b.webp', after: 'img/video-2021-06a.webp', b: 'Antes: rostro sin maquillaje', a: 'Después: cejas definidas, piel pareja y labios nude', caption: 'Clase de automaquillaje: cejas, piel pareja y labios nude.' },
+  { before: 'img/foto-2020-08c-antes.webp', after: 'img/foto-2020-08c-despues.webp', b: 'Antes: cabello negro largo con frizz', a: 'Después: cabello negro largo, liso y brillante', caption: 'Alisado en cabello negro largo: sin frizz y con brillo.' },
+  { before: 'img/foto-2020-08b-antes.webp', after: 'img/foto-2020-08b-despues.webp', b: 'Antes: cabello castaño ondulado y esponjoso', a: 'Después: cabello castaño oscuro liso hasta media espalda', caption: 'De ondas esponjosas a liso, en cabello castaño.' },
 ];
 const ba = document.querySelector('.ba');
 const range = ba.querySelector('.ba__range');
