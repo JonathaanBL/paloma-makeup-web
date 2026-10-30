@@ -231,6 +231,7 @@ button { font: inherit; color: inherit; }
 .launch p { color: var(--ink); max-width: 36ch; }
 .services__photo { width: 100%; aspect-ratio: 4 / 5; max-height: 50svh; object-fit: cover; object-position: 30% 30%; }
 .services__groups { grid-column: 6 / 13; display: grid; grid-template-columns: 1fr 1fr; gap: 64px 48px; }
+.group__link { display: inline-block; margin-top: 20px; }
 .group h3 { margin-bottom: 24px; color: var(--accent); }
 .menu { display: grid; gap: 18px; }
 .menu li { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; }
